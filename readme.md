@@ -23,9 +23,9 @@ grunt bower-install
     ```js
     $(document).ready(function(){
         $('#sample_goal').goalProgress({
-            goalAmount: 150,
-            currentAmount: 100,
-            textBefore: '$',
+            goalAmount: 10000000,
+            currentAmount: 9300000,
+            textBefore: '',
             textAfter: ' raised'
         });
     });
